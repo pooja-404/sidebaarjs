@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.min-100 {
+     min-height: 100vh;
+}
+
+.relative {
+    position: relative;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.flex-direction {
+    flex-direction: column;
+}
+
+.z-index-2 {
+    z-index: 2;
+}
+
+.btn {
+    width: 200px;
+    height: 45px;
+    padding: 13px 35px 13px 35px;
+    border-radius: 4px;
+    background: linear-gradient(97.42deg, #128DFF -4.95%, #1444EF 109.04%);
+    border: none;
+    cursor: pointer;
+    color: #fff;
+}
+.btn:hover {
+    background: linear-gradient(97.42deg, #1444EF -4.95%, #128DFF 109.04%);
+    transform: scale(1.1);
+}
+.mt-30 {
+    margin-top: 30px;
+}
+
+.justify-content-end {
+    justify-content: end;
+}
+.font {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+
+.w-100 {
+    width: 100%;
+}
+.Slidebar {
+    color: var(--gray, #808080);
+    text-align: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.link {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #128DFF;
+    width: 230px;
+    height: 45px;
+    padding: 13px 35px 13px 35px;
+    border: 1px solid #128DFF;
+    border-radius: 4px;
+    background: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+.link:hover {
+    color: #fff;
+    background: linear-gradient(97.42deg, #1444EF -4.95%, #128DFF 109.04%);
+}
+
+.Sidebar {
+    width: 286px;
+    height: 100%;
+    flex-shrink: 0;
+    border-radius: 0px 16px 16px 0px;
+    background: #FFF;
+    box-shadow: 9px 4px 26px 0px rgba(0, 0, 0, 0.06);
+    position: absolute;
+    left: -286px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 21px 27px 0 29px;
+    z-index: 2;
+    transition: all 300ms linear;
+}
+.overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: -100%;
+    background-color: #B9B9B9;
+    z-index: 1;
+    cursor: pointer;
+}
+.Sidebar.show {
+    left: 0;
+}
+.overlay.show2 {
+    left: 0;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+.mt-10{
+    margin-top: 10px;
+}
